@@ -1,0 +1,346 @@
+.CGcampusLeft { padding-right:0; } 
+
+
+.CGcampusRight { padding-left:0; }
+
+.GCcampusPadTop { padding-top:20px;}
+
+#new_BrowseBy {
+  border-bottom: 1px dotted #cccccc;
+  border-top: 1px dotted #cccccc;
+}
+#new_BrowseBy h2
+{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+#new_BrowseBy a
+{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#new_BrowseBy img
+{
+    width:100%;
+    height:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+a.btn-courseBy {
+     background-color: #eaebed;
+    border-color: #dcdee1;
+    color: #2B2B2B;
+    
+}
+.btn-courseBy.active, .btn-courseBy:active, .btn-courseBy:focus, .btn-courseBy:hover 
+{
+      background-color: #CF751A; 
+      color: #000000;
+}
+
+#highlight, #centerIconRow1, #centerIconRow2, #centerIconRow3
+{
+    margin-left:3%; 
+    margin-right:3%;
+    margin-top:10px;
+    margin-bottom:10px;   
+}
+
+#highlight .col-sm-4
+{
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+#centerIconRow1 .col-sm-4, #centerIconRow2 .col-sm-4, #centerIconRow3 .col-sm-4
+{
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+
+#onlineLearning
+{
+    background-image:url('../images/centerIcon/Online-Lrn-a-eng.png');
+    background-repeat:no-repeat;
+    height:300px;
+    width:100%;
+}
+#onlineLearning.active, #onlineLearning:active, #onlineLearning:focus, #onlineLearning:hover
+{
+    background-image:url('../images/centerIcon/Online-Lrn-h-eng.png');
+}
+aside.prm-flpr
+{
+    margin-bottom:10px;
+}
+
+#dhtmltooltip {
+font-family: Calibri, Tahoma, Geneva, sans-serif; color:#000000; font-weight: bold;
+FONT-SIZE: 85%;
+cursor: pointer;
+position: absolute;
+text-align:center; 
+margin-left: 3px; 
+width: 110px;
+height: 22px;
+border: 1px solid black;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+/*filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+}
+
+.tzone
+{
+ font-family: Calibri, Tahoma, Geneva, sans-serif; font-weight: bold;
+ FONT-SIZE: 97%;   
+ color:#000000;
+ width:4px; 
+ height:6px; 
+ cursor: pointer;
+}
+
+.red, .Red
+{
+	color: #990000;
+}	
+
+.italic {font-style:italic;}
+.nobold {font-weight:normal;}
+
+a.nolink { text-decoration:none; }
+a.nolink:hover, a.nolink:focus { color: #295376; }
+
+.underline {text-decoration:underline;}
+
+ul.noBullet, li.noBullet
+{
+   list-style-type: none;
+}
+
+select.full { width: 98.5%}
+select.CustCal { width: 90%}  
+
+/*  class for new calendar */
+.cal-prvmnth.inactive { color: #ccc; } 
+
+.cal-prvmnth.active:focus, .cal-prvmnth.active:hover {
+	color:#fff
+}
+
+.cal-month {color:#fff; text-decoration:underline;}
+
+strong.colonnes { color:#295376;}
+
+/* classes to reduce size of table in CourseDetails page, and to hide the caption */
+.DetailSmall { font-size:85%;}
+#mainContent_courseT caption
+{
+     
+    clip:rect(1px,1px,1px,1px);
+    height:1px;
+    margin:0;
+    overflow:hidden;
+    position:absolute;
+    width:1px;
+}
+
+details.Last , p.Last, div.Last { padding-bottom:10px;}
+
+#cal-calendar-mnthnav , #calendar div.cal-hd {background-color:#00525E;}
+
+#ProvMenu a.list-group-item {border:none; padding-top:5px;padding-bottom:5px;}
+#ProvMenu a.list-group-item:hover {background-color:#fff; text-decoration:underline;}
+#Map.col-xs-1 {height:5px;}
+
+.greylightBG { background-color: #efefef; color: #000; }
+
+.PadBottom5 { padding-bottom: 5px;}
+
+.padTop20 {border:solid white 5px;}
+
+.borderGray
+{
+    padding-top:5px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width:1px;
+}
+
+    
+.BoxBlue {
+    background-color: #05477e;
+    color: #ffffff;
+    }
+
+/*Added by Denis for the myaccount pages*/
+#myAccountPage {background-color:#d9e5e7;}
+#myAccountPage .background {background-color:#99bac0;}
+
+.FixLegend {border:none; margin-bottom:5px; font-size:16px; font-weight:bold;}
+
+/* added to look as WebRenewal, h1 undelined */
+h1 {border-bottom:solid 1px;}
+
+/* added to reduce space between text and headers */
+h2, h3, h4, h5, h6 {margin-top: 20px; } 
+
+.borderTopThick { border-top:solid 2px; }
+.borderBottomThick { border-bottom:solid 2px; }
+
+/* fix hr color wich was to light */
+hr { border-top: #A0A0A0 solid 1px;}
+
+/* this class is preventing the space to display when mouse over the link of Canada School of public service */
+.SpaceDisplayInPrint { display:none; }
+
+/*   ***********************   start of print section   ***********************/
+@media print
+{
+    .SpaceDisplayInPrint { display:inline; }
+    
+    #gcwu-sig { height:30px; } /* fix the size of the Canada logo and flag in th print version  */ 
+    
+    #wb-srch, #wmms { display:none; }/* hide the Symbol of the Government of Canada from the right side and the search */
+    #wb-bar a { display:none; } /* hide the black top bar */
+    #gc-bar { display:none; }
+    
+    #wb-glb-mn { display:none; }/* hide the mobile menu icon */
+    
+    main.container { width:100%; }    
+     
+    #wb-sttl a[href]:after, #wb-sttl br { display:none; } 
+    #wb-cont { margin-top:0; }     
+       
+    /*remove href afeter links */
+    a[href]:after { display:none; }
+    
+    /* fix calendar month color */
+    #cal-calendar-mnthnav  { color:#000; }
+    
+    .clearfix { clear:both; }
+    
+    /* fix rotating to display all images */
+    #panel4.out , #panel5.out, #panel6.out, #panel7.out { visibility:visible; }
+    
+    /* fix the date modified container */     
+    #wb-dtmd { text-align:right; }
+    #wb-dtmd dt, #wb-dtmd  dd { display:inline; padding-top:10px;}
+        
+    /* fix the left menu to display */
+    #wb-sec.col-md-3 { display:block !important; visibility:visible; }    
+
+    /* fix allignment prob see video/index */
+    div.row { border:solid white 1px; }
+    
+    /* display only the actual tab in the details page ( description or abstract) */
+    div.tabpanels details.out { height:0 }
+    
+   /* fix the overlaping display in print preview */
+    div.clearfix { border:solid white 1px;}
+    
+   	/* fix to removed border in print preview */
+    blockquote {
+	padding:11.5px 23px;
+	margin:0 0 23px;
+	border-left:5px solid #eee;border-bottom:none;border-top:none;border-right:none;}
+	
+	/* fix nowrap in print preview */
+	.nowrap {
+	white-space:nowrap;
+}
+
+}
+/*   ***********************   End of print section   ***********************/
+
+.v-algn-mddl {vertical-align: middle !important} 
+.v-algn-bttm {vertical-align: bottom !important} 
+.v-algn-tp {vertical-align: top !important} 
+
+.pd-tp-sm { padding-top: 1em !important}
+.pd-tp-md { padding-top: 2em !important}
+.pd-tp-lg { padding-top: 3em !important}
+.pd-tp-xl { padding-top: 4em !important}
+
+.pd-bbtm-sm { padding-bottom: 1em !important}
+.pd-bbtm-md { padding-bottom: 2em !important}
+.pd-bbtm-lg { padding-bottom: 3em !important}
+.pd-bbtm-xl { padding-bottom: 4em !important}
+
+
+tr.spaceunder > td {padding-bottom: 1em;}
+tr.spaceunder > th {padding-bottom: 10em;}
+
+
+/*  New Primary Colour Palette for Intranet and Internet */
+
+.orange-bg-pc { background-color: #e37c1d; }
+.green-bg-pc { background-color: #a9b533; }
+.blue-bg-pc { background-color: #005261;   }
+.grey1-bg-pc { background-color: #4c504A; }
+.grey2-bg-pc {background-color: #a6aea4; }
+
+.bg-blue {color:#fff; background-color:#335075;}
+
+.orange-pc { color: #e37c1d; }
+.green-pc { color: #a9b533; }
+.blue-pc { color: #005261; }
+.grey1-pc {color: #4c504A; }
+.grey2-pc { color: #a6aea4; }
+
+/*  End Primary Colour Palette for Intranet and Internet */
+
+/*  New Saturation Colour Palette for Intranet and Internet */
+
+.orange75-bg-sc { background-color: #ea9d55; }
+.orange50-bg-sc { background-color: #f1bd8e; }
+.orange25-bg-sc { background-color: #f8dec6; }
+.green75-bg-sc { background-color: #bec766; }
+.green50-bg-sc { background-color: #d4da99; }
+.green25-bg-sc { background-color: #eaeccc; }
+.blue75-bg-sc { background-color: #407e88; }
+.blue50-bg-sc { background-color: #80a9b0; }
+.blue25-bg-sc { background-color: #bfd4d7; }
+.grey1-bg-sc { background-color: #797c77; }
+.grey2-bg-sc { background-color: #a5a8a4;
+}
+.grey3-bg-sc { background-color: #d2d3d2; }
+.grey4-bg-sc { background-color: #bcc2bb; }
+.grey5-bg-sc { background-color: #d3d6d2; }
+.grey6-bg-sc { background-color: #e9ebe8; }
+
+/*  End Saturation Colour Palette for Intranet and Internet */
+
+/*  WCAG 2.0 colours for Intranet and Internet */
+
+.orange-bg-wcag { background-color: #ab6715; }
+.orange-wcag { color: #ab6715; }
+.green-bg-wcag { background-color: #7c7910; }
+.green-wcag { color: #7c7910; }
+
+/*  ENF WCAG 2.0 colours for Intranet and Internet */
+
+
+/* Change the main memu color */
+/* just comment the 2 lines below*/
+
+/* #wb-sm  a {
+    color : white; 
+  }  
+    /* comment this line when not needed*/
+
+
+/*.CustomMenuColor, #wb-sm .nvbar ul.menu > li > a.wb-navcurr  {
+    background-color: #E6007D ; 
+   } 
+    /* comment this line when not needed*/
+
+
+/*  ********  END OF MENU CHANGE COLOR  ******   */
+
+
